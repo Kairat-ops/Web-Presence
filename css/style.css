@@ -1,0 +1,703 @@
+body{
+    margin: 0px;
+    background-color: rgb(180, 180, 180);
+}
+main{
+    padding: 0px 40px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+header a{
+    text-decoration: none;
+    color: black;
+    padding: 15px 115px;
+    background-color: rgb(220, 220, 220);
+    border: 1px solid black;
+}
+.color{
+    background-color: rgb(220, 220, 220);
+}
+.sec1{
+    display: flex;
+    margin: 40px 0px;
+    justify-content: space-between;
+}
+.banner_block1{
+    width: calc(80% - 6.5%);
+    height: 100vh;
+    background: url('../img/showcase.jpg') center / cover;
+    color: white;
+    position: relative;
+}
+.banner_text{
+    position: relative;
+    width: 80%;
+    top: 40%;
+    left: 5%;
+}
+.banner_block1 h1{
+    font-size: 40px;
+}
+.banner_block1 p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: rgb(220, 220, 220);
+}
+.banner_block1 a{
+    background-color: rgb(100, 100, 100);
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.inner{
+    width: 24%;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.banner_block2{
+    display: flex;
+    flex-direction: column;
+    height: 48vh;
+    justify-content: center;
+    align-items: center;
+}
+.banner_block3{
+    display: flex;
+    flex-direction: column;
+    height: 48vh;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-size: 20px;
+}
+.cost{
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+.price{
+    font-size: 45px;
+    color: green;
+}
+.buy_url{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: slategrey;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.sec2{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.innerblock{
+    width: 20%;
+    padding: 20px;
+}
+.info_main{
+    font-size: 30px;
+}
+.info{
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.sec3{
+    margin: 30px 0px;
+    display: inline-flex;
+    background-color: rgb(220, 220, 220);
+    padding: 10px;
+}
+.left_banner{
+    width: 50%;
+    height: 300px;
+    background: url('../img/pic1.jpg') center / cover;
+}
+.right_banner{
+    width: 49%;
+    padding: 20px;
+}
+.right_banner h1{
+    font-size: 30px;
+}
+.right_banner p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.right_banner a{
+    color: white;
+    background-color: rgb(20, 20, 20);
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.sec4{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.img{
+    width: 300px;
+    height: 300px;
+}
+.img_block1{
+    background: url('../img/1.jpg') center / cover;
+    margin-bottom: 20px;
+}
+.img_block2{
+    background: url('../img/2.jpg') center / cover;
+}
+.img_block3{
+    background: url('../img/3.jpg') center / cover;
+}
+.img_block4{
+    background: url('../img/4.jpg') center / cover;
+}
+.img_block5{
+    background: url('../img/5.jpg') center / cover;
+}
+.img_block6{
+    background: url('../img/6.jpg') center / cover;
+}
+.img_block7{
+    background: url('../img/7.jpg') center / cover;
+}
+.img_block8{
+    background: url('../img/8.jpg') center / cover;
+}
+footer{
+    background-color: rgb(50, 50, 50);
+    padding: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+footer h1{
+    font-size: 20px;
+    color: white;
+}
+@media screen and (max-width: 1298px){
+    header a{
+        padding: 15px 100px;
+    }
+    .img{
+        width: 280px;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 1181px){
+    header a{
+        padding: 15px 90px;
+    }
+    .img{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .banner_block1{
+        height: 80vh;
+    }
+    .inner{
+        height: 80vh;
+    }
+    .banner_block2{
+        height: 38vh;
+    }
+    .banner_block3{
+        height: 38vh;
+    }
+    header a{
+        padding: 15px 75px;
+    }
+    .img{
+        width: 220px;
+        height: 220px;
+    }
+    footer{
+        padding: 40px;
+    }
+    footer h1{
+        font-size: 18px;
+    }
+    .text{
+        font-size: 16px;
+    }
+    .cost{
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .price{
+        font-size: 35px;
+        color: green;
+    }
+    .buy_url{
+        font-size: 18px;
+        padding: 8px 18px;
+    }
+    .innerblock{
+        width: 19%;
+        padding: 20px;
+    }
+    .info_main{
+        font-size: 27px;
+    }
+    .info{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .banner_text{
+        position: relative;
+        width: 70%;
+        top: 35%;
+        left: 3%;
+    }
+    .banner_block1 h1{
+        font-size: 33px;
+    }
+    .banner_block1 p{
+        font-size: 17px;
+        margin-bottom: 28px;
+    }
+    .banner_block1 a{
+        padding: 8px 16px;
+    }
+    .right_banner h1{
+        font-size: 28px;
+    }
+    .right_banner p{
+        font-size: 17px;
+        line-height: 28px;
+    }
+    .right_banner a{
+        padding: 8px 18px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 980px){
+    .img{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 965px){
+    header a{
+        padding: 15px 70px;
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 900px){
+    .img{
+        width: 180px;
+        height: 180px;
+    }
+    .info_main{
+        font-size: 25px;
+    }
+    .info{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .right_banner h1{
+        font-size: 25px;
+    }
+    .right_banner p{
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .right_banner a{
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    .left_banner{
+        height: 250px;
+    }
+}
+@media screen and (max-width: 858px){
+    header a{
+        padding: 13px 60px;
+        font-size: 11px;
+    }
+    .innerblock{
+        padding: 16px;
+    }
+    .info_main{
+        font-size: 18px;
+    }
+    .info{
+        font-size: 13px;
+        line-height: 18px;
+    }
+}
+@media screen and (max-width: 828px){
+    .img{
+        height: 160px;
+        width: 160px;
+    }
+    .right_banner h1{
+        font-size: 20px;
+    }
+    .right_banner p{
+        font-size: 13px;
+        line-height: 22px;
+    }
+    .right_banner a{
+        padding: 8px 14px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 780px){
+    .banner_block1{
+        height: 70vh;
+    }
+    .inner{
+        height: 70vh;
+    }
+    .banner_block2{
+        height: 33vh;
+    }
+    .banner_block3{
+        height: 33vh;
+    }
+    .text{
+        font-size: 14px;
+    }
+    .cost{
+        font-size: 22px;
+        margin-bottom: 27px;
+    }
+    .price{
+        font-size: 30px;
+        color: green;
+    }
+    .buy_url{
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+    .banner_block1 h1{
+        font-size: 28px;
+    }
+    .banner_block1 p{
+        font-size: 15px;
+        margin-bottom: 25px;
+    }
+    .banner_block1 a{
+        padding: 6px 15px;
+        font-size: 15px;
+    }
+    .banner_text{
+        width: 65%;
+        top: 30%;
+        left: 3%;
+    }
+}
+@media screen and (max-width: 750px){
+    header a{
+        padding: 12px 50px;
+    }
+    .img{
+        width: 150px;
+        height: 150px;
+    }
+    .left_banner{
+        height: 220px;
+    }
+}
+@media screen and (max-width: 700px){
+    .innerblock{
+        width: 18%;
+        padding: 15px;
+    }
+    .right_banner h1{
+        font-size: 18px;
+    }
+    .right_banner p{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    .right_banner a{
+        padding: 6px 12px;
+        font-size: 10px;
+    }
+    .img{
+        width: 130px;
+        height: 130px;
+    }
+    .info_main{
+        font-size: 16px;
+    }
+    .info{
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .text{
+        font-size: 12px;
+    }
+    .cost{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .price{
+        font-size: 24px;
+        color: green;
+    }
+    .buy_url{
+        font-size: 10px;
+        padding: 5px 14px;
+    }
+}
+@media screen and (max-width: 670px){
+    header a{
+        padding: 12px 50px;
+        font-size: 8px;
+    }
+    .sec1{
+        margin: 25px 0px;
+    }
+}
+@media screen and (max-width: 630px){
+    header a{
+        padding: 10px 40px;
+    }
+    .img{
+        width: 120px;
+        height: 100px;
+    }
+    .info_main{
+        font-size: 14px;
+    }
+    .info{
+        font-size: 9px;
+    }
+    .left_banner{
+        height: 200px;
+    }
+    .right_banner h1{
+        font-size: 15px;
+    }
+    .right_banner p{
+        font-size: 10px;
+        line-height: 18px;
+    }
+    .right_banner a{
+        padding: 6px 12px;
+        font-size: 8px;
+    }
+    footer{
+        padding: 30px;
+    }
+    footer h1{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 580px){
+    .banner_block1{
+        height: 60vh;
+    }
+    .inner{
+        height: 60vh;
+    }
+    .banner_block2{
+        height: 28vh;
+    }
+    .banner_block3{
+        height: 28vh;
+    }
+    .text{
+        font-size: 10px;
+    }
+    .cost{
+        font-size: 15px;
+        margin-bottom: 18px;
+    }
+    .price{
+        font-size: 20px;
+    }
+    .buy_url{
+        font-size: 8px;
+        padding: 5px 14px;
+    }
+    .banner_block1 h1{
+        font-size: 22px;
+    }
+    .banner_block1 p{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .banner_block1 a{
+        padding: 6px 15px;
+        font-size: 11px;
+    }
+    .innerblock{
+        width: 16%;
+        height: 100px;
+    }
+    .info_main{
+        font-size: 12px;
+    }
+    .info{
+        font-size: 8px;
+        line-height: 11px;
+    }
+}
+@media screen and (max-width: 568px){
+    .img{
+        width: 100px;
+        height: 100px;
+    }
+}
+@media screen and (max-width: 543px){
+    .banner_block1 h1{
+        font-size: 18px;
+    }
+    .banner_block1 p{
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+    .banner_block1 a{
+        padding: 6px 15px;
+        font-size: 9px;
+    }
+    header a{
+        padding: 10px 30px;
+    }
+}
+@media screen and (max-width: 495px){
+    .img{
+        width: 90px;
+        height: 90px;
+    }
+    header{
+        padding: 0px 20px;
+    }
+    main{
+        padding: 0px 20px;
+    }
+    .img{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 450px){
+    .innerblock{
+        width: 14%;
+    }
+    .info_main{
+        font-size: 10px;
+    }
+    .info{
+        font-size: 7px;
+        line-height: 10px;
+    }
+    .right_banner h1{
+        font-size: 12px;
+    }
+    .right_banner p{
+        font-size: 8px;
+        line-height: 15px;
+    }
+    .right_banner a{
+        padding: 6px 12px;
+        font-size: 8px;
+    }
+    .left_banner{
+        height: 180px;
+    }
+    .img{
+        width: 90px;
+    }
+}
+@media screen and (max-width: 417px){
+    header a{
+        padding: 8px 20px;
+    }
+    .text{
+        font-size: 10px;
+    }
+    .cost{
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+    .price{
+        font-size: 20px;
+        color: green;
+    }
+    .buy_url{
+        font-size: 8px;
+        padding: 5px 14px;
+    }
+    .banner_block1{
+        height: 50vh;
+    }
+    .inner{
+        height: 50vh;
+    }
+    .banner_block2{
+        height: 23vh;
+    }
+    .banner_block3{
+        height: 23vh;
+    }
+    .banner_block1 h1{
+        font-size: 15px;
+    }
+    .banner_block1 p{
+        font-size: 8px;
+    }
+    .banner_block1 a{
+        padding: 6px 15px;
+        font-size: 7px;
+    }
+    .img{
+        width: 80px;
+    }
+}
+@media screen and (max-width: 360px){
+    .img{
+        width: 70px;
+    }
+    .innerblock{
+        width: 12%;
+        height: 100px;
+    }
+    .info_main{
+        font-size: 8px;
+    }
+    .info{
+        font-size: 5px;
+        line-height: 8px;
+    }
+}
+@media screen and (max-width: 350px){
+    header a{
+        padding: 8px 15px;
+        font-size: 6px;
+    }
+    .text{
+        font-size: 7px;
+    }
+    .cost{
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+    .price{
+        font-size: 16px;
+        color: green;
+    }
+    .buy_url{
+        font-size: 6px;
+        padding: 5px 14px;
+    }
+    .img{
+        width: 60px;
+    }
+}
